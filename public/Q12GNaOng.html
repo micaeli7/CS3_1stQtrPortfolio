@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color: #FFD9E9;">
+
+    <h1 style="color: #F772AA" style="font-family: Arial, Helvetica, sans-serif;"> Q1 2nd Graded Exercise submitted by Mica of Na</h1>
+
+    <p>Meal price: <input type="text" id="in1"></p>
+    <p>Tip: <input type="text" id="in2"></p>
+    <p>Service charge: <input type="text" id="in3"></p>
+    <button onclick="totalMeal()" style="background-color: #F772AA">Accept Input</button>
+
+    <p>Total meal: </p><p id="output"></p>
+
+    <script>
+        function totalMeal() {
+            let mp = parseFloat(document.getElementById("in1").value);
+            let tip = parseFloat(document.getElementById("in2").value);
+            let sc = parseFloat(document.getElementById("in3").value);
+            let totalCost = mp + tip + (sc / 100 * mp);
+            document.getElementById("output").innerHTML = totalCost.toFixed(2);
+        }
+    </script>
+
+</body>
+</html>
