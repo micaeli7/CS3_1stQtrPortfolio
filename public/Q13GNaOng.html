@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color: #FFD9E9;">
+
+   <h2 style="color: #F772AA"> Q1 3rd Graded Exercise submitted by Mica of Na</h2>
+
+   <p>Guess the number: ****</p>
+   <p>The number is from 1 to 100</p>
+   <p>Enter your guess: <input type="text" id="in1"></p>
+   <button onclick="checkIt()" style="background-color: #F772AA;">Check It</button>
+
+   <p id="output"></p>
+
+    <script>
+
+       var dNumber = Math.floor(Math.random() * 100) + 1; // generates a number from 1  to 100 when the page loads
+
+        function checkIt() {
+              let x = parseFloat(document.getElementById("in1").value);
+              let z = dNumber - x
+              
+            if (x > dNumber)
+            document.getElementById("output").innerHTML = "<span style='color: red'>Lower! (ꐦ¬_¬)</span>";
+
+            else if (x < dNumber)
+            document.getElementById("output").innerHTML = "<span style='color: red'>Higher! ( ｡ •` ⤙´• ｡)</span>";
+
+            else if (x = dNumber)
+            document.getElementById("output").innerHTML = "<span style='color: green'>You are correct!!! ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧</span>";
+        }
+    </script>
+
+</body>
+
+</html>
