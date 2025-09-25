@@ -2,8 +2,11 @@
 
 ## List and describe at least 5 topics that we discussed in class that you know very well. Each description should be at least 1 paragraph with twoto five sentences.
 * Arithmetic operators - These include + for addition, * for multiplication, / for division, and etc. In my opinion they are all relatively simple and intuitive even if this is my first time learning about this.
-* Output statements(?) - These include console.log, alert, and etc. console.log is used for debugging codes where the output will not be displayed in the actual website but the terminal and such. alert, on the other hand, 
-
+* Output statements(?) - These include console.log, alert, and etc. console.log is used for debugging codes where the output will not be displayed in the actual website but the terminal and such. alert, on the other hand, displays the output in a dialog box.
+* Inserting output inside an HTML element - To do this, you need to access the element first. To access the element, use getElementById.innerHTML = "the desired output". Before doing this, however, you need to put an id on the element that you want to access.
+* if-else statements - These can be used if you want to excecute code based on certain conditions. For if-else, the code under 'if' is executed if the condition stated is met, and if that condition is false, the code under else if will be executed. The code under 'else' will be executed if none of the other conditions are met.
+* switch statement - This can be used if there are multiple actions for multiple conditions instead of layering if-else statements. Under switch, you need to state cases and the conditions that they need, and if the condition of one case is met, then the code under that will be performed. If none of the conditions are met, the code stated under default will be executed.
+  
 ## List at least 5 topics that you know and can describe but needs further practice/discussion and why.  The why should be per topic listed.  
 * Loops - I know what loops are and how they work but I'm not sure that I understand how to apply loops to create things, especially if it gets too complex :(
 * && and || - Again, I know what they are but when I'm asked to look at a statement including these and there are too many things that I need to evaluate and consider, my mind kind of blanks?
